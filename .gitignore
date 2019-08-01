@@ -1,0 +1,7 @@
+# Project exclude paths
+/project/target/
+/projects/scalatest_v_3_0_x/target/
+/projects/scalatest_v_3_0_x/target/scala-2.12/test-classes/
+/projects/scalatest_v_3_0x/target/
+/projects/scalatest_v_3_0x/target/scala-2.12/test-classes/
+/target/
