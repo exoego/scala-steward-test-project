@@ -5,6 +5,17 @@ lazy val root = project
   .settings(name := "scala-steward-test-project")
   .aggregate(scalatest_v3_0_x, scalatest_v3_1_x)
 
+val circeVersion = "0.10.0"
+lazy val project1 = project
+  .in(file("projects/project1"))
+  .settings(
+    libraryDependencies ++= Seq(
+      "io.circe" %% "circe-core",
+      "io.circe" %% "circe-generic",
+      "io.circe" %% "circe-parser"
+    ).map(_ % circeVersion)
+  )
+
 lazy val scalatest_v3_0_x = project
   .in(file("projects/scalatest_v_3_0_x"))
   .settings(
