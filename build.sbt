@@ -26,7 +26,7 @@ lazy val scalatest_v3_0_x = project
   )
 
 lazy val scalatest_v3_1_x = project
-  .in(file("projects/scalatest_v_3_0x"))
+  .in(file("projects/scalatest_v_3_1_x"))
   .settings(
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.1.0-SNAP12" % Test
