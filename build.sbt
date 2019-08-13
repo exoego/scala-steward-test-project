@@ -10,7 +10,7 @@ lazy val project1 = project
   .in(file("projects/project1"))
   .settings(
     libraryDependencies ++= Seq(
-      "org.scalameta" %% "scalafmt-core" % "2.0.0"
+      "org.scalameta" %% "scalafmt-core" % "2.0.1"
     ),
     libraryDependencies ++= Seq(
       "io.circe" %% "circe-core",
