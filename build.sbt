@@ -5,7 +5,7 @@ lazy val root = project
   .settings(name := "scala-steward-test-project")
   .aggregate(scalatest_v3_0_x, scalatest_v3_1_x, project1)
 
-val circeVersion = "0.10.0"
+val circeVersion = "0.10.1"
 lazy val project1 = project
   .in(file("projects/project1"))
   .settings(
