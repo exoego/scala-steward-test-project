@@ -10,6 +10,9 @@ lazy val project1 = project
   .in(file("projects/project1"))
   .settings(
     libraryDependencies ++= Seq(
+      "org.scalameta" %% "scalafmt-core" % "2.0.0"
+    ),
+    libraryDependencies ++= Seq(
       "io.circe" %% "circe-core",
       "io.circe" %% "circe-generic",
       "io.circe" %% "circe-parser"
@@ -21,7 +24,7 @@ lazy val scalatest_v3_0_x = project
   .settings(
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.8" % Test,
-      "org.scalacheck" %% "scalacheck" % "1.14.0"  % Test
+      "org.scalacheck" %% "scalacheck" % "1.14.0" % Test
     )
   )
 
