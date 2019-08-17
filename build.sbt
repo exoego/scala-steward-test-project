@@ -20,7 +20,7 @@ lazy val project1 = project
 lazy val scalatest_v3_0_x = project
   .in(file("projects/scalatest_v_3_0_x"))
   .settings(
-    addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.0"),
+    addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3"),
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.8" % Test,
       "org.scalacheck" %% "scalacheck" % "1.14.0" % Test
