@@ -9,7 +9,7 @@ val circeVersion = "0.11.1"
 lazy val project1 = project
   .in(file("projects/project1"))
   .settings(
-    addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.0"),
+    addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3"),
     libraryDependencies ++= Seq(
       "io.circe" %% "circe-core",
       "io.circe" %% "circe-generic",
