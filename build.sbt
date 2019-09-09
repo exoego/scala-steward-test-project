@@ -18,7 +18,7 @@ lazy val project1 = project
     libraryDependencies ++= Seq(
       "io.monix" %%% "minitest" % "2.6.0" % "test",
       "org.codehaus.groovy" % "groovy-all" % "2.4.6",
-      "org.scalaz" %% "scalaz-core" % "7.2.27"
+      "org.scalaz" %% "scalaz-core" % "7.2.28"
     )
   )
 
