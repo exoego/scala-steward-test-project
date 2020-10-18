@@ -16,7 +16,7 @@ lazy val project1 = project
       "io.circe" %% "circe-parser"
     ).map(_ % circeVersion),
     libraryDependencies ++= Seq(
-      "io.monix" %%% "minitest" % "2.7.0" % "test",
+      "io.monix" %%% "minitest" % "2.8.2" % "test",
       "org.codehaus.groovy" % "groovy-all" % "2.4.17",
       "org.scalaz" %% "scalaz-core" % "7.2.28"
     )
