@@ -27,7 +27,7 @@ lazy val scalatest_v3_0_x = project
   .settings(
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.9" % Test,
-      "org.scalacheck" %% "scalacheck" % "1.14.0" % Test
+      "org.scalacheck" %% "scalacheck" % "1.14.3" % Test
     )
   )
 
