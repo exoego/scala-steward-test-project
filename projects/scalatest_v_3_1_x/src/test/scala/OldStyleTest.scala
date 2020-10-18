@@ -1,4 +1,3 @@
-
 import org.scalatest.funsuite.AnyFunSuite
 
 class OldStyleTest extends AnyFunSuite {
