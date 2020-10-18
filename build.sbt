@@ -35,6 +35,6 @@ lazy val scalatest_v3_1_x = project
   .in(file("projects/scalatest_v_3_1_x"))
   .settings(
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest" % "3.1.4" % Test
+      "org.scalatest" %% "scalatest" % "3.2.2" % Test
     )
   )
